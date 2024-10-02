@@ -3,7 +3,7 @@ from django.shortcuts import render
 
 # Create your views here.
 def tv(request):
-    return HttpResponse('все любят смотреть телевизоры')
+    return HttpResponse('никто не любит смотреть телевизоры')
 
 def cat(request):
     return HttpResponse('любите ваших кошечек')
